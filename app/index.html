@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js">
+<html>
     <head>
         <meta charset="utf-8">
         <title>Majestic Thai Webapp</title>
@@ -13,7 +13,7 @@
         <!-- endbuild -->
 
         <!-- build:css styles/main.css -->
-        <link rel="stylesheet" href="styles/main.css">
+        <link type="text/css" rel="stylesheet" href="styles/main.css">
         <!-- endbuild -->
 
         <!-- build:js scripts/vendor/modernizr.js -->
@@ -36,9 +36,63 @@
                     <h2>Pad Thai</h2>
                     <p>Thin rice noodle stir-fried with meat or tofu, egg, green onion, chopped red onion, chopped tofu and bean sprouts in Pad Thai sauce topped with chopped peanuts.</p>
                     <span class="menu_price">$13.00</span>
-                    <span class="menu_img"></span>
+                    <div class="menu_img"></div><!-- .menu_img -->
+
+                    <div class="menu_item_options">
+                        <div class="menu_quantity">
+                            <span>Quantity: <input type="text" class="menu_quantity_input" /></span>
+                        </div><!-- .menu_quantity -->
+
+                        <div class="menu_meat_type">
+                            <p>Choice of Meat or Tofu</p>
+                            <select name="meat">
+                                <option value="value1" selected="">Chicken</option>
+                                <option value="value2">Pork</option>
+                                <option value="Value3">Beef</option>
+                                <option value="value4">Tofu</option>
+                                <option value="value5">Veggies</option>
+                                <option value="value6">Shrimp($3.00)</option>       
+                                <option value="Value7">Seafood($5.00)</option>
+                                <option value="Value8">Salmon($5.00)</option>
+                            </select>
+                        </div><!-- .menu_meat_type -->
+                            
+                        <div class="menu_gluten">
+                        <p>Gluten-Free Option</p>
+                            <select name="gluten">
+                                <option value="value1" selected>Select a option</option>
+                                <option value="value2">Gluten Free</option>
+                            </select>
+                        </div><!-- .menu_gluten -->
+
+                        <div class="menu_veggie">
+                        <p>Vegetarian Option</p>
+                            <select name="veggie">
+                                <option value="value1" selected>Select a option</option>
+                                <option value="value2">Vegetarian</option>
+                            </select>
+                        </div><!-- .menu_veggie -->
+
+                        <div class="menu_spicy">
+                        <p>Spicy Level:</p>
+                            <select name="spicy">
+                                <option value="value1">Select a option</option>
+                                <option value="value2">Very Mild</option>
+                                <option value="value3">Mild</option>
+                                <option value="value4">Medium</option>
+                                <option value="value5">Spicy</option>
+                                <option value="value6">Very Spicy</option>
+                            </select>
+                        </div><!-- .menu_spicy -->
+
+                        <div class="menu_order_button">Add to Order</div><!-- .menu_order_button -->
+
+                    </div><!-- .menu_item_options -->
 
                 </div><!-- .menu_item -->
+
+               
+
             </div><!-- .menu_container -->
         </div><!-- .container -->
 
