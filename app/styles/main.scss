@@ -22,7 +22,7 @@ body {
 
 .menu_item {
     border-top: 1px solid #999;
-    height: 125px;
+    height: 155px;
     position: relative;
     margin: 10px 10px 0;
     overflow: hidden;
@@ -35,7 +35,7 @@ body {
     p {
         font-size: .8em;
         line-height: 1.1;
-        margin: 0; 
+        margin: 5px 0 0; 
         padding: 0;
         width: 250px;
     }
@@ -60,22 +60,25 @@ body {
         top: 0;
         right: 0;
     }
+
+    .menu_button {
+        right: 2px;
+        position: absolute; 
+        bottom: 0;
+        padding: 6px 5px;
+        border-radius: 5px;
+        font-size: .8em;
+        font-weight: bold;
+        background-color: green;
+        color: white;
+        outline: none;
+    }
     
 }
 
-.menu_item_options {
-    margin-top: 20px;
-    // -webkit-transition: all 0.5s ease;
-    // -moz-transition: all 0.5s ease;
-    // -o-transition: all 0.5s ease;
-    // transition: all 0.5s ease;
-}
 
-.visible {
-    height: 500px;
-    transition-duration: 2s;
-    transition-timing-function: ease;
-}
+
+
 
 
 
